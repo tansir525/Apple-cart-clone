@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MacBook</title>
+  </head>
+  <body>
+    <main>
+      <section class="main-part">
+        <div class="pic">
+          <img class="mac-img" src="images/mac.png" alt="" />
+        </div>
+        <div class="details">
+          <div>
+            <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+            <p>
+              The M1 chip has a built-in Neural Engine, a component that Apple first started adding to its A-series chips a few years ago. The Neural Engine is designed to accelerate machine learning tasks across the Mac for things like video analysis, voice recognition, image processing, and more.
+            </p>
+          </div>
+          <h3>Memory</h3>
+          <div>
+            <button id="memory-8gb">8GB unified memory</button>
+            <button id="memory-16gb">16GB unified memory</button>
+          </div>
+          <h3>Storage</h3>
+          <div>
+            <button id="storage-256">256 GB SSD storage</button>
+            <button id="storage-512">512 GB SSD storage</button>
+            <button id="storage-1tb">1TB SSD storage</button>
+          </div>
+          <h3>Choose your delivery option</h3>
+          <div>
+            <button id="default-plan">Friday, 25 Aug Free Delivery</button>
+            <button id="custom-plan">Friday, 21 Aug Delivery Charge $20</button>
+          </div>
+<div>
+    <div class="col-25">
+        <div class="container">
+          <h4>Best Price <span class="price" style="color:black"><b>$<span id="price">1299</span></b></span></h4>
+          <hr>
+          <p><a href="#">Extra Memory Cost</a> <span class="price">$<span id="Memory-cost" >0</span> </span></p>
+          <hr>
+          <p><a href="#">Extra Storage Cost</a> <span class="price">$<span id="Storage-cost" >0</span> </span></p>
+          <hr>
+          <p><a href="#">Delivery Charge</a> <span class="price">$<span id="Delivry-cost" >0</span> </span></p>
+         
+          <hr class="bold-hr">
+
+          <p><a href="#">Total Price</a> <span class="price">$<span id="alltotal" >1299</span> </span></p>
+          <!-- <p>Total <span class="price" style="color:black"><b>$<span id="total">1299</span></b></span></p> -->
+          <hr>
+        </div>
+      </div>
+      <div>
+      <h4>Add Promo Code</h4>
+      <input id="promo-input" type="text"> <button class="promo" id="promo-apply">Apply</button>
+    </div>
+    </div>
+</div>
+
+        </div>
+      </section>
+      <hr>
+     <h1 class="total">Total: $<span id="promo-total">1299</span></h1> 
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
